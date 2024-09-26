@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/hello-world-app.git' // Use your repository URL
+                git 'https://github.com/saiprasadr870/hello-world-app' // Use your repository URL
             }
         }
 
