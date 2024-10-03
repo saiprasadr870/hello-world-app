@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-                // Add your deployment steps here
+                sh 'nohup npm start &' // Starts the Node.js app in the background
             }
         }
     }
